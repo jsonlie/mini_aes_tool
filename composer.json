@@ -1,0 +1,18 @@
+{
+    "name": "jsonlie/mini-aes-tool",
+    "description": "AES-128-CBC加解密工具轻封装",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jsonlie\\MiniAesTool\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "leslie",
+            "email": "390940063@qq.com"
+        }
+    ],
+    "require": {}
+}
