@@ -18,7 +18,7 @@ class RsaService
      */
     public static function encrypt($str,$public_key){
         try {
-            $pub_key = openssl_pkey_get_public(public_key);
+            $pub_key = openssl_pkey_get_public($public_key);
             if(empty($pub_key)){
                 throw new \Exception('无效公钥');
             }

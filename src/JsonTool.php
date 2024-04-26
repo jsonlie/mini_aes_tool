@@ -36,6 +36,7 @@ class JsonTool
                     self::$instance[$method] = new Rsa();
                     break;
             }
+            self::$instance[$method]->setParams($config);
         }
         return self::$instance[$method];
     }
